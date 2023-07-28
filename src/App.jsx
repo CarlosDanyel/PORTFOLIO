@@ -4,9 +4,9 @@ import Cursor from "./FrameMotion/Cursor";
 import Scroll from "./FrameMotion/Scroll";
 import Cabecalho from "./components/Cabecalho";
 import Rodape from "./components/Rodape";
-import BtnScroll from "./components/btnScroll";
 import { Outlet } from "react-router-dom";
 import Preloader from "./components/Preloader"; 
+import BtnScroll from "./components/BtnScroll";
 
 function App() {
   const [loading, setLoading] = useState(false);
