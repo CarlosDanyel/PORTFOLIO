@@ -1,5 +1,4 @@
-
-const Github = () => {
+const Git = () => {
     return (
         <svg width="23" height="23" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="correntColor">
             <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
@@ -9,4 +8,4 @@ const Github = () => {
     );
 };
 
-export default Github;
+export default Git;
