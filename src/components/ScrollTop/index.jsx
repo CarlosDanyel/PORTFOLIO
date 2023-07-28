@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 
 import { animateScroll as scroll } from "react-scroll";
@@ -7,7 +6,7 @@ import seta from "../../assets/seta.png";
 
 import Style from "./style.module.scss";
 
-const BtnScroll = () => {
+const ScrollTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
@@ -36,5 +35,4 @@ const BtnScroll = () => {
   );
 };
 
-
-export default BtnScroll;
+export default ScrollTop;

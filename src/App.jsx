@@ -6,7 +6,7 @@ import Cabecalho from "./components/Cabecalho";
 import Rodape from "./components/Rodape";
 import { Outlet } from "react-router-dom";
 import Preloader from "./components/Preloader"; 
-import BtnScroll from "./components/BtnScroll";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -22,7 +22,7 @@ function App() {
     <div className="app">
         <Preloader carregando={loading} />
           <Scroll />
-          <BtnScroll />
+          <ScrollTop/>
           <Cursor />
           <Cabecalho />
           <Outlet />
