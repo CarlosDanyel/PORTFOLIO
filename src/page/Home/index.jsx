@@ -3,7 +3,7 @@ import BtnColor from "../../components/BtnSection";
 import CaroselLogo from "../../components/CaroselLogo";
 import ListaDeServicos from "../../components/ListaDeServicos";
 import ListaDeProjetos from "../../components/ListaDeProjetos";
-import ListaDeTecnologia from "../../components/ListaDeTecnologia/inde";
+
 import ListaDeExperiencia from "../../components/ListaDeExperiencia";
 import FormularioContato from "../../components/FormularioContato";
 import ListaSobreMim from "../../components/ListaSobreMim";
@@ -19,6 +19,7 @@ import { useTranslation } from "react-i18next";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import ListaDeFrases from "../../components/ListaDeFrases";
+import ListaDeTecnologia from "../../components/ListaDeTecnologia";
 
 const Home = () => {
 
