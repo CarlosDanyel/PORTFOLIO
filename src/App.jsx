@@ -21,14 +21,12 @@ function App() {
   return (
     <div className="app">
         <Preloader carregando={loading} />
-        <>
           <Scroll />
           <BtnScroll />
           <Cursor />
           <Cabecalho />
           <Outlet />
           <Rodape />
-        </>
     </div>
   );
 }

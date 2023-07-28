@@ -1,5 +1,5 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useState, useEffect } from 'react';
+
+import { useState, useEffect } from 'react';
 
 import { animateScroll as scroll } from "react-scroll";
 
@@ -27,10 +27,11 @@ const BtnScroll = () => {
 
   return (
     <button
+        title="Subir ao topo"
         className={`${Style['scroll_top']} ${isVisible ? Style.visible : Style.hidden}`}
         onClick={()=> {scroll.scrollToTop()}}
     >
-        <img src={seta} />
+        <img src={seta} alt='Subir ao topo' />
     </button>
   );
 };

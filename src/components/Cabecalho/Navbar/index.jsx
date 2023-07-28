@@ -23,13 +23,13 @@ const Navbar = () => {
 
   const itensLinks = [
     {
-      name: "Home", link: "/"
+      name: "Home", link: "/", acesibilidade: "Pagina Home"
     },
     {
-      name_scroll: "Portfolio", link_scroll:"Portfolio"
+      name_scroll: "Portfolio", link_scroll:"Portfolio",
     },
     {
-      name: "Blog", link: "/Blog"
+      name: "Blog", link: "/Blog", acesibilidade: "Pagina Blog"
     },
   ];  
 
@@ -42,8 +42,8 @@ const Navbar = () => {
         <ul>
           {itensLinks.map((item,index) =>(
             <li key={index}>
-              <NavLink to={item.link}>{item.name}</NavLink>
-              <Link to= "Portfolio"
+              <NavLink title={item.acesibilidade} to={item.link}>{item.name}</NavLink>
+              <Link title="Conheça o meu portfolio" to="Portfolio"
               spy={true}  
               smooth={true} 
               duration={1300}

@@ -11,11 +11,11 @@ import style from "./style.module.scss";
 import { Link } from "react-router-dom";
 
 const contato = [
-    { name: "Linkedin", svg: <Linkedin/>, link: "https://www.linkedin.com/in/mano-deyvin-b78534278/"}, 
-    { name: "Instagram", svg: <Instagram/>, link: "https://www.instagram.com/_danyelzs/" },
-    { name: "Github", svg: <Github/>, link: "https://github.com/CarlosDanyel" },
-    { name: "+55 11 985673241", svg: <Cell/>, duration: "400" },
-    { name: "carlosdanyelsilva27@gmail.com", svg: <Email/>},
+    {acesibilidade: "Visite o meu linkedin", name: "Linkedin", svg: <Linkedin/>, link: "https://www.linkedin.com/in/mano-deyvin-b78534278/"}, 
+    {acesibilidade: "Visite o meu instagram", name: "Instagram", svg: <Instagram/>, link: "https://www.instagram.com/_danyelzs/" },
+    {acesibilidade: "Visite o meu github", name: "Github", svg: <Github/>, link: "https://github.com/CarlosDanyel" },
+    {acesibilidade: "Meu numero +55 11 985673241", name: "+55 11 985673241", svg: <Cell/>, duration: "400" },
+    {acesibilidade: "Meu email carlosdanyelsilva27@gmail.com", name: "carlosdanyelsilva27@gmail.com", svg: <Email/>},
   ];
 
 const ListaDeContato = () => {
@@ -23,7 +23,7 @@ const ListaDeContato = () => {
         <ul className={style.listaContato}>
             {contato.map((item, indice) =>{
                 return(
-                    <Link to={item.link} key={indice}>
+                    <Link title={item.acesibilidade} to={item.link} key={indice}>
                         <li className={style.contentItem} data-name={item.name}>
                             {item.svg}
                         </li>

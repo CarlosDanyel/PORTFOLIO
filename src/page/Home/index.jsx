@@ -51,7 +51,7 @@ const Home = () => {
         <CaroselLogo />
         <section name={t( "link-header4")} className={style.Servicos}>
           <div className={style.img_service}>
-            <img src={service}></img>
+            <img src={service} alt="Imagem ilustrativa"></img>
           </div>
           <div className={style.display}>
             <div className={style.containerServ}>
@@ -82,7 +82,7 @@ const Home = () => {
         </section>
         <section name={t( "link-header7")} className={style.Experiencia}>
           <div className={style.img_Exp}>
-            <img src={star}></img>
+            <img src={star} alt="Imagem ilustrativa"></img>
           </div>
           <div className={style.displayEx}>
             <div className={style.containerEx}>

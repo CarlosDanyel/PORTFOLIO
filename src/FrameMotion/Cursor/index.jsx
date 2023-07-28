@@ -36,7 +36,7 @@ const Cursor = () => {
     }
  
     return (
-            
+ 
              <>
              <motion.div 
             className={style.cursor}
