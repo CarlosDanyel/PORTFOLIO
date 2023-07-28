@@ -1,0 +1,14 @@
+@import "../../style/variavel.scss";
+
+.idioma {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding: .1rem .4rem 0 .4rem;
+
+    border: 2px solid $borders-black;
+    transition: .4s;
+    border-radius: 8px;
+}

@@ -1,0 +1,172 @@
+@import "../../style/variavel.scss";
+
+.container_display {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .ListaProjeto {
+        margin-top: -52px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-between;
+        padding-bottom: 5rem;
+
+        li {
+            position: relative;
+            padding: 2rem 1rem;
+            border-radius: 5px;
+            flex-basis: 24rem;
+            flex-grow: 1;
+            background: $background-white;
+            border: 2px solid $borders-black;
+            transition: 400ms;
+            
+            &:hover {
+                transform: scale(1.04);
+
+                &:nth-child(1){ 
+                   
+                    .listTech1{
+                        position: relative;
+
+                        &::after{
+                            position: absolute;
+                            content: "React";
+                            background: $color-destaque;
+                            top: 8.5rem;
+                            left: 2rem;
+                            padding: .3rem;
+                            color: $color-texto-white;
+                            font-size: 14px;
+                            border-radius: 4px;
+                            animation: skills 800ms ease-in-out forwards;
+                            transform: translateY(40px);
+                            z-index: 1;
+                        }
+                        
+                        &::before{
+                            position: absolute;
+                            content: "Sass/Scss";
+                            background:  $color-destaque;
+                            top: 8.5rem;
+                            left: 6.5rem;
+                            padding: .3rem;
+                            color: $color-texto-white;
+                            font-size: 14px;
+                            border-radius: 4px;
+                            animation: skills 1200ms ease-in-out forwards;
+                            transform: translateY(20px);
+                            z-index: 1;
+                        }
+                    }     
+                }
+            }
+
+            &:hover .img_container .box {
+                background-position: bottom;
+            }
+            
+            .img_container {
+                position: relative;
+                padding: 1rem;
+                border-radius: 5px;
+                background: $backgound-section-secundaria;
+            }
+
+            .img_container .box {
+                height: 24vh;
+                width: 100%;
+                background-position: top;
+                box-shadow: 0 8px 24px 0 rgb(0 0 0 / 15%);
+                background: $background-white;
+                transition: ease-in-out 4s;
+            }
+
+            .box.box1 {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color:  $background-white;
+                background-size: cover;
+
+                span{
+                    font-size: 1.2rem;
+                    color: $text-opacity;
+                    line-height: 26px;
+                }
+            }
+
+            .expecificaçoes {
+                margin-top: 0.5rem;
+                display: flex;
+                justify-content: space-between;
+
+                span {
+                    font-size: 0.85rem;
+                    color: $color-texto;
+                    line-height: 26px;
+                }
+            }
+
+            .projeto_titulo {
+                margin: 0.7rem 0;
+
+                span {
+                    color: $color-texto;
+                    font-weight: 700;
+                    font-size: 15px;
+                }
+            }
+
+            .sobreProjeto{
+                font-size: 0.85rem;
+                padding: 0.5rem 0;
+                color: $text-opacity;
+                line-height: 30px;  
+            }
+            .container_btn {
+                margin-top: 1rem;
+                display: flex;
+                gap: 1rem;
+
+                button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    background: $background-white;
+                    border-radius: 5px;
+                    border: 2px solid #000000;
+                    padding: 1rem 0;
+                    transition: 400ms;
+
+                    &:hover {
+                        color: $color-destaque;
+                    }
+                }
+            }
+
+            &:hover {
+                box-shadow: 4px 4px 0px $background-black;
+                transition: 400ms !important;   
+            }
+
+        }
+    }
+}    
+
+@keyframes skills {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(82px);
+    }
+}

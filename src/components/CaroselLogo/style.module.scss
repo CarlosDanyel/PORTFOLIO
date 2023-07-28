@@ -1,0 +1,62 @@
+@import "../../style/variavel.scss";
+
+.carousel {
+    background: $carosel-bkg;
+    overflow: hidden;
+    width: calc(2 * var(--no-of-slides));
+
+    --no-of-slides: 5;
+    --slides-in-view: 5;
+    --slide-width: 40vw;
+    --slide-height: 80px;
+    --iteration-time: 20s;
+
+    .carousel_wrapper {
+        display: flex;
+        align-items: center;
+        width: calc(var(--slides-in-view) * var(--slide-width));
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .carousel_slide {
+        animation: scroll var(--iteration-time) linear infinite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 auto;
+        width: var(--slide-width);
+        height: var(--slide-height);
+        box-sizing: border-box;
+    }
+
+    .carousel_image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 45px;
+        width: 135px;
+    }
+
+    .carousel_slide {
+        position: relative;
+    }
+
+    .carousel {
+        counter-reset: slideNo;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(var(--slide-width) * var(--no-of-slides)* -1));
+        }
+    }
+
+    @media(max-width: 751px) {
+        display: none;
+    }
+}

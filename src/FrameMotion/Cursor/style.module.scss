@@ -1,0 +1,17 @@
+@import "../../style/variavel.scss";
+
+.cursor{
+    height: $cursorSize;
+    width: $cursorSize;
+    background-color: $color-cursor;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+

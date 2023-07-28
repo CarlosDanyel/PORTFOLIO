@@ -1,0 +1,109 @@
+{
+    "ERROR": "¡ERROR 404!",
+    "message": "¡Mensaje enviado!",
+  
+
+    "frase1": "La programación es el arte de organizar y dominar la complejidad. - Edsger Dijkstra ",
+    "frase2": "En la programación, la creatividad es la única limitación real. - Steve Jobs",
+    "frase3": "El código es la base del futuro. - Bill Gates",
+    "frase4": "La curiosidad impulsa la programación. - Chris Pine",
+    "frase5": "Programar es como escribir música para mentes mecánicas. - Drew Houston",
+    "frase6": "Código limpio, mente clara. - Robert C. Martin",
+    "frase7": "La mejor manera de predecir el futuro es programarlo. - Alan Kay",
+    "frase8": "Programar es como desentrañar un rompecabezas interminable y emocionante. - Karl Lehenbauer",
+    "frase9": "El código es la tinta con la que creamos nuestros sueños digitales. - Anónimo",
+    "frase10":"Codificar es descifrar un mundo de posibilidades. - Karolina Szczur",
+
+  
+    "link-header1": "Hogar",
+    "link-header2": "Portfolio",
+    "link-header3": "Blog",
+    "link-header4": "Servicios",
+    "link-header5": "Tecnologías",
+    "link-header6": "Proyectos",
+    "link-header7": "Experiencia",
+    "link-header8": "Contacto",
+  
+  
+  
+    "EntradaText-Home": "¡Mucho placer!",
+    "Titulo-Home": "Carlos Danyel",
+    "Titulo-Home2": "Desarrollador Fullstack",
+    "descricaoText-Home": "La mejor manera de predecir el futuro es programarlo.",
+  
+  
+  
+    "btn-servicos": "Profesional",
+    "Titulo-Servicos": "Servicios",
+    "descricaoText-Servicos": "Aplicación web con un enfoque en la calidad y la sofisticación.",
+    "card1-servicos": "Desarrollo web",
+    "card1-descricao-servicos": "Desarrollo aplicaciones con un enfoque en la calidad de presentación al cliente.",
+    "card2-servicos": "Optimización SEO",
+    "card2-descricao-servicos": "Sitios en la parte superior de los rankings con gran optimización y rendimiento.",
+    "card3-servicos": "Respuesta",
+    "card3-descricao-servicos": "Sitios web responsive para todo tipo de dispositivos.",
+  
+  
+  
+    "titulo-tech": "Tecnologías",
+    "descricao-tech": "Tecnologías más utilizadas en mi vida diaria.",
+
+
+
+    "titulo-projeto": "Proyectos",
+    "descricao-projeto": "Mis principales proyectos, finalizados en desarrollo",
+    "name-pjr1": "Página de ventas",
+    "detalhe-pjr1-2": "Front end",
+    "descricao-pjr1": "Desarrollé un libro electrónico y una página de ventas para apoyar y ayudar a los jóvenes a ingresar al mercado laboral.",
+    "name-pjr2":"¡PRONTO!",  
+    "detalhe-pjr2-2":"",
+    "descricao-pjr2": "Desarrollé un libro electrónico y una página de ventas para apoyar y ayudar a los jóvenes a ingresar al mercado laboral.",
+    "name-pjr3":"¡PRONTO!",  
+    "detalhe-pjr3-2":"",
+    "descricao-pjr3": "",
+    "name-pjr4":"¡PRONTO!",  
+    "detalhe-pjr4-2":"",
+    "btnText-pjr-1": "Depósito",
+    "descricao-pjr4": "",
+    "detalhe-Embreve": "¡PRONTO!",
+  
+  
+  
+    "btn-expe": "Profesional",
+    "Titulo-expe": "Experiencia",
+    "descricaoText-expe": "Mi experiencia en el mercado laboral.",
+    "card1-expe": "Freelance",
+    "card1-expe2": "Desarrollo web",
+    "card1-descricao-expe": "Desarrollo de aplicaciones web con un enfoque en la calidad de la presentación al cliente.",
+    "card2-expe": "Band TV - Newco",
+    "card2-expe2": "Aprendiz de programación",
+    "card2-descricao-expe": "Responsable del guión de programación del canal Bandsports.",
+    "card3-expe": "Band TV - Newco",
+    "card3-expe2": "Asistente de Programación",
+    "card3-descricao-expe": "Líder y responsable del equipo y programación del canal New Brasil.",
+  
+  
+  
+    "titulo-sobre": "Conóceme",
+    "descricao-sobre": "Obtén más información sobre mí y mi enfoque como desarrollador.",
+    "sobre-text1": "Acerca de mí",
+    "sobre-text1-descricao": "Mucho gusto, mi nombre es Carlos Danyel y tengo 18 años, soy un apasionado de la tecnología y mi enfoque es el desarrollo Fullstack, me considero una persona proactiva y comunicativa además de un gran trabajo en equipo.",
+    "sobre-text2": "Mis estudios.",
+    "sobre-text2-descricao": "Actualmente sigo estudiando Java y base de datos.",
+    "sobre-text3": "Mi inicio en la programación.",
+    "sobre-text3-descricao": "Comencé con 15 años en programación donde por curiosidad encontré un gran universo de código.",
+    "form-titulo": "¡Trabajemos juntos!",
+    "input1": "Nombre", 
+    "input2": "Correo electrónico",
+    "input3": "¡Deja tu mensaje aquí!",
+    "btn1": "Enviar",
+    "btn2": "Descargar C.V",
+  
+    "titulo-contato": "Contacto",
+    "descricao-contato": "¡Mis redes sociales y correo electrónico personal para contacto!",
+  
+    "text-Rodape1": "Todos los derechos reservados.",
+
+
+    "textBlog": "Proyecto en desarrollo, pronto se publicarán menos!"
+  }

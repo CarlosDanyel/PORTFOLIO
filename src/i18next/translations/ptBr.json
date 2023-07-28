@@ -1,0 +1,107 @@
+{
+  "ERROR": "ERROR 404!",
+  "message": "Mensagem enviada!",
+
+  "frase1": "Programar é a arte de organizar e dominar a complexidade. - Edsger Dijkstra ",
+  "frase2": "Na programação, a criatividade é a única limitação real. - Steve Jobs",
+  "frase3": "O código é a base do futuro. - Bill Gates",
+  "frase4": "A curiosidade impulsiona a programação. - Chris Pine",
+  "frase5": "Programar é como escrever música para mentes mecânicas. - Drew Houston",
+  "frase6": "Código limpo, mente clara. - Robert C. Martin",
+  "frase7": "A melhor maneira de prever o futuro é programá-lo. - Alan Kay",
+  "frase8": "Programar é como desvendar um enigma infinito e empolgante. - Karl Lehenbauer",
+  "frase9": "O código é a tinta com a qual criamos nossos sonhos digitais. - Anônimo",
+  "frase10":"Codificar é decifrar um mundo de possibilidades. - Karolina Szczur",
+
+  "link-header1": "Home",
+  "link-header2": "Portfolio",
+  "link-header3": "Blog",
+  "link-header4": "Serviços",
+  "link-header5": "Tecnologias",
+  "link-header6": "Projetos",
+  "link-header7": "Experiência",
+  "link-header8": "Contato",
+
+
+
+  "EntradaText-Home": "Muito prazer!",
+  "Titulo-Home": "Carlos Danyel",
+  "Titulo-Home2": " Desenvolvedor Fullstack",
+  "descricaoText-Home": "A melhor maneira de prever o futuro é programá-lo.",
+
+
+
+  "btn-servicos": "Profissional",
+  "Titulo-Servicos": "Serviços",
+  "descricaoText-Servicos": "Aplicação web com foco em qualidade e sofisticação!",
+  "card1-servicos": "Desenvolvimento Web",
+  "card1-descricao-servicos": "Desenvolvo Aplicações com foco na qualidade de apresentação ao cliente.",
+  "card2-servicos": "Otimização SEO",
+  "card2-descricao-servicos": "Sites no topo dos rankings com uma ótima otimização e performance.",
+  "card3-servicos": "Responsividade",
+  "card3-descricao-servicos": "Sites responsivos para todos os tipo de dispositivo.",
+
+
+
+  "titulo-tech": "Tecnologias",
+  "descricao-tech": "Tecnologias mais usadas no meu dia a dia!",
+
+
+
+  "titulo-projeto": "Projetos",
+  "descricao-projeto": "Meus principais projetos, concluídos em desenvolvimento!",
+  "name-pjr1": "Pagina de vendas",
+  "detalhe-pjr1-2": "Front end",
+  "descricao-pjr1": "Desenvolvi um eBook e uma página de vendas para apoiar e auxiliar jovens a entrar no mercado de trabalho.",
+  "name-pjr2":"EM BREVE!",  
+  "detalhe-pjr2-2":"",
+  "descricao-pjr2": "Desenvolvi um eBook e uma página de vendas para apoiar e auxiliar jovens a entrar no mercado de trabalho.",
+  "name-pjr3":"EM BREVE!",  
+  "detalhe-pjr3-2":"",
+  "descricao-pjr3": "",
+  "name-pjr4":"EM BREVE!",  
+  "detalhe-pjr4-2":"",
+  "btnText-pjr-1": "Repositório",
+  "descricao-pjr4": "",
+  "detalhe-Embreve": "EM BREVE",
+
+
+
+  "btn-expe": "Profissional",
+  "Titulo-expe": "Experiência",
+  "descricaoText-expe": "Minhas experiencia no mercado de trabalho!",
+  "card1-expe": "Freelance",
+  "card1-expe2": "Desenvolvimento web",
+  "card1-descricao-expe": "Desenvolvendo Aplicações web com foco na qualidade de apresentação ao cliente",
+  "card2-expe": "Band TV - Newco",
+  "card2-expe2": "Aprendiz de programação",
+  "card2-descricao-expe": "Responsável pelo roteiro de programação do canal Bandsports.",
+  "card3-expe": "Band TV - Newco",
+  "card3-expe2": "Assistente de programação",
+  "card3-descricao-expe": "Líder e responsável pela equipe e programação do canal New Brasil.",
+
+
+
+  "titulo-sobre": "Conheça-me",
+  "descricao-sobre": "Conheça mais sobre mim e meu foco como dev!",
+  "sobre-text1": "Sobre mim",
+  "sobre-text1-descricao": "Muito prazer, meu nome é Carlos Danyel e tenho 18 anos, sou apaixonado por tecnologia e meu foco é o desenvolvimento Fullstack, me considero uma pessoa proativa e comunicativo além de um ótimo trabalho em equipe.",
+  "sobre-text2": "Meus estudos.",
+  "sobre-text2-descricao": "atualmente sigo estudando java e banco de dados.",
+  "sobre-text3": "Meu inicio na programação.",
+  "sobre-text3-descricao": "Inicie com 15 anos na programação onde pela a curiosidade encontrei um grande universo de código.",
+  "form-titulo": "Vamos trabalhar juntos!",
+  "input1": "Nome", 
+  "input2": "E-mail",
+  "input3": "Deixe aqui a sua mensagem!",
+  "btn1": "Enviar",
+  "btn2": "Download  C.V",
+
+  "titulo-contato": "Contato",
+  "descricao-contato": "Minhas redes sociais e e-mail pessoal para contato!",
+
+  "text-Rodape1": "Todos os direitos reservados.",
+
+
+  "textBlog": "Projeto em desenvolvimento, logo menos será publicado!"
+}

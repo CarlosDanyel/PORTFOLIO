@@ -1,0 +1,73 @@
+@import "../../style/variavel.scss";
+
+.listaContato{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.8rem;
+    flex-wrap: wrap; 
+
+    a{
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 0;
+
+    .contentItem{
+        cursor: pointer;
+        transition: 400ms;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 1rem;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        flex-basis: 0;
+        background: $background-white;
+        border: 2px solid $background-black;
+        border-radius: 8px;
+            
+            svg{
+                fill:$color-destaque;
+                width: 70px;
+                height: 70px;   
+            }
+
+            span{
+                font-size: 13px;
+                line-height: 30px;
+                color: $text-opacity;
+            }
+
+            &:hover::after {
+                position: absolute;
+                content: attr(data-name);
+                background: $color-destaque;
+                padding: .3rem;
+                color: $color-texto-white;
+                font-size: 12px;
+                border-radius: 4px;
+                animation: skills 800ms ease-in-out forwards;
+                transform: translateY(40px);
+            }
+
+            &:hover {
+                box-shadow: 3px 3px 0px $background-black;
+                transform: translateY(-10px);
+                transform: scale(1.05);
+            }   
+        }
+    }
+}
+
+@keyframes skills {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(82px);
+    }
+}

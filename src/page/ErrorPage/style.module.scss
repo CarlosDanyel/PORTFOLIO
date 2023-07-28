@@ -1,0 +1,20 @@
+.ErrorPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        font-size: 50px;
+        font: black;
+        padding-bottom: 1rem; 
+    }
+
+    h2{
+        font-size: 30px;
+        font: black;
+        padding-bottom: 1rem;
+        font-weight: 400; 
+    }
+}

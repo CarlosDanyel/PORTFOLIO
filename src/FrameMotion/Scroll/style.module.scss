@@ -1,0 +1,12 @@
+@import "../../style/variavel.scss";
+
+.progresso_line{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: $color-destaque;    
+    transform-origin: 0%;
+    z-index: 90;
+}

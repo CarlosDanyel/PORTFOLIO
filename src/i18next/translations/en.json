@@ -1,0 +1,105 @@
+{
+    "ERROR": "ERROR 404!",
+    "message": "Message sent!",
+  
+    "frase1": "Programming is the art of organizing and mastering complexity. - Edsger Dijkstra ",
+    "frase2": "In programming, creativity is the only real limitation. - Steve Jobs",
+    "frase3": "Code is the foundation of the future. - Bill Gates",
+    "frase4": "Curiosity drives programming. - Chris Pine",
+    "frase5": "Programar é como escrever música para mentes mecânicas. - Drew Houston",
+    "frase6": "Programming is like writing music for mechanical minds. - Drew Houston",
+    "frase7": "The best way to predict the future is to program it. - Alan Kay",
+    "frase8": "Programming is like unraveling an endless and exciting puzzle. - Karl Lehenbauer",
+    "frase9": "Code is the ink with which we create our digital dreams. - Anonymous",
+    "frase10":"To encode is to decipher a world of possibilities. - Karolina Szczur",
+  
+    "link-header1": "Home",
+    "link-header2": "Portfolio",
+    "link-header3": "Blog",
+    "link-header4": "Services",
+    "link-header5": "Technologies",
+    "link-header6": "Projects",
+    "link-header7": "Experience",
+    "link-header8": "Contact",
+  
+  
+  
+    "EntradaText-Home": "Much pleasure!",
+    "Titulo-Home": "Carlos Danyel",
+    "Titulo-Home2": "Fullstack Developer",
+    "descricaoText-Home": "The best way to predict the future is to program it.",
+  
+  
+  
+    "btn-servicos": "Professional",
+    "Titulo-Servicos": "Services",
+    "descricaoText-Servicos": "Web application with a focus on quality and sophistication!",
+    "card1-servicos": "Web development",
+    "card1-descricao-servicos": "I develop applications with a focus on the quality of presentation to the customer. ",
+    "card2-servicos": "SEO Optimization",
+    "card2-descricao-servicos": "Sites at the top of the rankings with great optimization and performance.",
+    "card3-servicos": "Responsiveness",
+    "card3-descricao-servicos": "Responsive websites for all types of devices.",
+  
+  
+  
+    "titulo-tech": "Technologies",
+    "descricao-tech": "Most used technologies in my daily life!",
+
+
+
+    "titulo-projeto": "Projects",
+    "descricao-projeto": "My main projects, completed in development!",
+    "name-pjr1": "Sales Page",
+    "detalhe-pjr1-2": "Front end",
+    "descricao-pjr1": "I developed an eBook and a sales page to support and help young people enter the job market.",
+    "name-pjr2":"SOON!",  
+    "detalhe-pjr2-2":"",
+    "descricao-pjr2": "I developed an eBook and a sales page to support and help young people enter the job market.",
+    "name-pjr3":"SOON!",  
+    "detalhe-pjr3-2":"",
+    "descricao-pjr3": "",
+    "name-pjr4":"SOON!",  
+    "detalhe-pjr4-2":"",
+    "descricao-pjr4": "",
+    "btnText-pjr-1": "Repository",
+    "detalhe-Embreve": "SOON",
+  
+  
+  
+    "btn-expe": "Professional",
+    "Titulo-expe": "Experience",
+    "descricaoText-expe": "My experience in the job market!",
+    "card1-expe": "Frellancer",
+    "card1-expe2": "Web development",
+    "card1-descricao-expe": "Developing web applications with a focus on the quality of presentation to the customer",
+    "card2-expe": "Band TV - Newco",
+    "card2-expe2": "Programming Apprentice",
+    "card2-descricao-expe": "Responsible for the programming script of the Bandsports channel.",
+    "card3-expe": "Band TV - Newco",
+    "card3-expe2": "Programming Assistant",
+    "card3-descricao-expe": "Leader and responsible for the team and programming of the New Brasil channel.",
+  
+  
+    "titulo-sobre": "Get to know me",
+    "descricao-sobre": "Learn more about me and my focus as a dev!",
+    "sobre-text1": "About Me",
+    "sobre-text1-descricao": "Very pleasure, my name is Carlos Danyel and I am 18 years old, I am passionate about technology and my focus is the Fullstack development, I consider myself a proactive and communicative person in addition to a great teamwork.",
+    "sobre-text2": "My studies.",
+    "sobre-text2-descricao": "Currently I am studying Java and Database",
+    "sobre-text3": "My start in programming.",
+    "sobre-text3-descricao": "Start with 15 years in programming where out of curiosity I found a large universe of code.",
+    "form-titulo": "Let's work together!",
+    "input1": "Name", 
+    "input2": "Email",
+    "input3": "Leave your message here!",
+    "btn1": "Send",
+    "btn2": "Download  C.V",
+  
+    "titulo-contato": "Contact",
+    "descricao-contato": "My social networks and personal email for contact!",
+  
+    "text-Rodape1": "All rights reserved.",
+
+    "textBlog": "Project in development, soon less will be published!"
+  }
