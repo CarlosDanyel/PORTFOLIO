@@ -1,6 +1,6 @@
 import Js from "../icon/Tecnologias/Js";
 import Css from "../icon/Tecnologias/css";
-import Html from "../icon/Tecnologias/html";
+import Html from "../icon/Tecnologias/Html";
 import React from "../icon/Tecnologias/react";
 import Sass from "../icon/Tecnologias/sass";
 import style from"./style.module.scss";
