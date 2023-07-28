@@ -1,6 +1,5 @@
 import Instagram from "../icon/Redes/instagram";
 import Linkedin from "../icon/Redes/linkedin";
-import Git from "../icon/Redes/git";
 
 import { Link } from "react-router-dom";
 
@@ -11,7 +10,7 @@ const ListaDeRedes = () => {
     const ListaRedes = [
         {nome: "Visite o meu linkedin", rede: <Linkedin />, link: "https://www.linkedin.com/in/carlos-danyel-silva-teixeira-7b2a11210/" },
         {nome: "Visite o meu instagram", rede: <Instagram />, link: "https://www.instagram.com/_danyelzs/" },
-        {nome: "Visite o meu github", rede: <Git />, link: "https://github.com/CarlosDanyel" },
+        {nome: "Visite o meu github", rede: <Instagram />, link: "https://github.com/CarlosDanyel" },
     ];
 
     return (
