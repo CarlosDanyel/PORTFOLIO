@@ -2,7 +2,7 @@
   💻<br>Portfólio | Carlos Danyel
 </h1>
 
-![Resultado final do projeto](assets/image/preview.png)
+![Resultado final do projeto](/src/assets/projetoFullPage.png)
 
 <h4 align="center"><a href="https://portfolio-carlosdanyel.vercel.app">Clique para visitar o projeto</a></h4>
 
