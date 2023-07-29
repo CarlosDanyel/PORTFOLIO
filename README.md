@@ -28,7 +28,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Sass/Scss;
 - I18next;
 - React-preloades;
-- Fremer.Motion;
+- Framer.Motion;
 - Aos.js
   
 ---
