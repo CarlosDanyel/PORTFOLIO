@@ -10,8 +10,8 @@ import style from"./style.module.scss";
 const techData = [
   { name: "React", svg: <React/>,  duration: "100" } ,
   { name: "JavaScript", svg: <Js/>,  duration: "200" },
-  { name: "Sass/Scss", svg: <TechGit/>,  duration: "300" },  
-  { name: "Git", svg: <Sass/>,  duration: "400" },
+  { name: "Sass/Scss", svg: <Sass/>,  duration: "300" },  
+  { name: "Git", svg: <TechGit/>,  duration: "400" },
   { name: "HTML", svg: <Html/>,  duration: "500" },
   { name: "CSS", svg: <TechCss/>,  duration: "600" },
 ];
