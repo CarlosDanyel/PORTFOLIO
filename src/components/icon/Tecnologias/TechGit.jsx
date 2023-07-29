@@ -1,5 +1,4 @@
-
-const Git = () => {
+const TechGit = () => {
     return (
         <svg width="76" height="79" viewBox="0 0 61 58" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_450_4)">
@@ -11,8 +10,7 @@ const Git = () => {
             </clipPath>
             </defs>
         </svg>
-
     );
 };
 
-export default Git;
+export default TechGit;
