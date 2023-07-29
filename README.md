@@ -15,7 +15,7 @@ O site é composto por sete seções:
 - **Tecnologias** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
 - **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
 - **Experiências:** Abordo algumas empresas da qual prestei meus serviços;
-- **Quem sou:**: Uma breve descrição sobre mim e minha carreira;
+- **Quem sou:** Uma breve descrição sobre mim e minha carreira;
 - **Contato:**: Meus contatos pessoais;
 
 ---
@@ -28,7 +28,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Sass/Scss;
 - I18next;
 - React-preloades;
-- Fremer.Motion;
+- Framer.Motion;
 - Aos.js
   
 ---
