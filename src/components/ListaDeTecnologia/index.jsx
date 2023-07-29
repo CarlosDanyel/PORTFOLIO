@@ -1,8 +1,9 @@
 import Js from "../icon/Tecnologias/Js";
-import Css from "../icon/Tecnologias/Css";
 import Html from "../icon/Tecnologias/Html";
 import React from "../icon/Tecnologias/React";
 import Sass from "../icon/Tecnologias/Sass";
+import Css from "../icon/Tecnologias/Css";
+
 import style from"./style.module.scss";
 
 const techData = [
