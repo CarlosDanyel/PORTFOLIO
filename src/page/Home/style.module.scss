@@ -33,7 +33,7 @@ main {
             h1 {
                 text-align: center;
                 font-weight: 600;
-                font-size: 45px;
+                font-size: 47px;
                 line-height: 56px;
                 margin-bottom: .5rem;
                 color: $color-texto-white
@@ -109,6 +109,10 @@ main {
                 height: 400px;
                 z-index: 1;
                 user-select: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
                 animation: rotate 4000ms infinite;
 
             }
@@ -123,6 +127,10 @@ main {
                 width: 400px;
                 height: 400px;
                 z-index: 1;
+                user-select: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
                 user-select: none;
                 animation: rotate 4000ms infinite;
             }
@@ -207,6 +215,10 @@ main {
             left: 0;
             top: 8%;
             z-index: 1;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
             user-select: none;
 
             img {
@@ -320,6 +332,10 @@ main {
             left: 0;
             top: 8%;
             z-index: 1;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
             user-select: none;
 
             img {

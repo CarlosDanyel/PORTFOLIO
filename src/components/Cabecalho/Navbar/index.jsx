@@ -21,18 +21,6 @@ const Navbar = () => {
     setMode(!active);
   };
 
-  const itensLinks = [
-    {
-      name: "Home", link: "/", acesibilidade: "Pagina Home"
-    },
-    {
-      name_scroll: "Portfolio", link_scroll:"Portfolio",
-    },
-    {
-      name: "Blog", link: "/Blog", acesibilidade: "Pagina Blog"
-    },
-  ];  
-
   return (
     <>
       <nav  className={active ? `${style.navegacao} ${style.active}` : style.navegacao}>
@@ -40,17 +28,23 @@ const Navbar = () => {
           <Logo/>
         </div>
         <ul>
-          {itensLinks.map((item,index) =>(
-            <li key={index}>
-              <NavLink title={item.acesibilidade} to={item.link}>{item.name}</NavLink>
-              <Link title="Conheça o meu portfolio" to="Portfolio"
-              spy={true}  
-              smooth={true} 
-              duration={1300}
-              >{item.name_scroll}</Link>
-              
-            </li>
-          ))}
+          <li>
+            <NavLink 
+            title="Pagina Home" 
+            to="/">Home</NavLink>
+          </li>
+          <li>
+          <Link title="Conheça o meu portfolio"
+            to="Portfolio"
+            spy={true}  
+            smooth={true} 
+            duration={1300}>Portfólio</Link>
+          </li>
+          <li>
+          <NavLink 
+            title="Pagina Blog" 
+            to="/Blog">Blog</NavLink>
+          </li>
         </ul>
         <BtnNavbar active={active} onClick={activeMode} />
       </nav>

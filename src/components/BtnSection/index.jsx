@@ -6,7 +6,7 @@ const BtnColor = (props) => {
 
   return (
     <>
-      <button data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600" type={props.type} className={style.learn_more}>{props.btnName}</button>
+      <button type="button" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" className={style.learn_more}>{props.btnName}</button>
     </>
   );
 };

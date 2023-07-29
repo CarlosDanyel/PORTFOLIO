@@ -22,16 +22,18 @@ const ListaLinksHeader = (props) => {
 
     return (
         <ul className={props.className} >
-            <NavLink onClick={props.reactive} to={"/"}>{t("link-header1")}</NavLink>
-            <NavLink onClick={props.reactive} to={"/Blog"}>{t("link-header3")}</NavLink>
+           <li><NavLink onClick={props.reactive} to={"/"}>{t("link-header1")}</NavLink></li>
+           <li><NavLink onClick={props.reactive} to={"/Blog"}>{t("link-header3")}</NavLink></li>
            {ListaDeLinks.map((item, indice) => {
-            return <Link 
-            onClick={props.reactive} 
-            key={indice} 
-            to={item.to} 
-            spy={true} 
-            smooth={true} 
-            duration={1300}><li>{item.name}</li></Link>;
+            return <li key={indice} >
+                <Link 
+                onClick={props.reactive} 
+                to={item.to} 
+                spy={true} 
+                smooth={true} 
+                duration={1300}>{item.name}
+                </Link>;
+                </li>
       })}
       </ul>
     );

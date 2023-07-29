@@ -7,10 +7,12 @@
     flex-basis: 350px;
 
     details{
+        list-style-type: none;
         svg{
             fill: $color-destaque;
         }
         summary{
+            list-style-type: none;
             display: flex;
             justify-content: space-between;
             padding: 38px 0;

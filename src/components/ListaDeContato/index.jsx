@@ -24,11 +24,11 @@ const ListaDeContato = () => {
         <ul className={style.listaContato}>
             {contato.map((item, indice) =>{
                 return(
-                    <Link title={item.acesibilidade} to={item.link} key={indice}>
-                        <li className={style.contentItem} data-name={item.name}>
-                            {item.svg}
-                        </li>
+                <li key={indice} className={style.contentItem} data-name={item.name}>
+                    <Link title={item.acesibilidade} to={item.link} >
+                      {item.svg}
                     </Link>
+                </li>
                 );
             })}
         </ul>

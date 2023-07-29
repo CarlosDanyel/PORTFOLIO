@@ -57,6 +57,8 @@
     }
 
     @media(max-width: 751px) {
-        display: none;
+        .carousel_slide{
+            width: 61vw;
+        }
     }
 }

@@ -26,6 +26,7 @@ const ScrollTop = () => {
 
   return (
     <button
+        type="button"
         title="Subir ao topo"
         className={`${Style['scroll_top']} ${isVisible ? Style.visible : Style.hidden}`}
         onClick={()=> {scroll.scrollToTop()}}

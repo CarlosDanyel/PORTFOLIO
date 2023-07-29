@@ -11,9 +11,7 @@ const Cabecalho = () => {
       <header>
         <div className={style.display_header}>
           <div className={style.containerRedes}>
-            <ul>
               <ListaDeRedes/>
-            </ul>
             <span className={style.titlePage}></span>
             <div>
               <ListaDeIdiomas/>

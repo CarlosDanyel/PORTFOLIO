@@ -65,8 +65,8 @@ const Home = () => {
         </section>
         <section name={t( "link-header5")} className={style.Tech}>
           <div className={style.displayTech}>
-            <h4 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t( "titulo-tech")}</h4>
-            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">{t("descricao-tech")}</p>
+            <h4 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">{t( "titulo-tech")}</h4>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="20">{t("descricao-tech")}</p>
             <ListaDeTecnologia />
           </div>
         </section>
@@ -74,8 +74,8 @@ const Home = () => {
           <div className={style.projeto_container}>
             <div className={style.display}>
               <div className={style.pjr_contnet}>
-                <h4 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("titulo-projeto")}</h4>
-                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">{t("descricao-projeto")}</p>
+                <h4 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">{t("titulo-projeto")}</h4>
+                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("descricao-projeto")}</p>
               </div>
             </div>
           </div>
@@ -88,16 +88,16 @@ const Home = () => {
           <div className={style.displayEx}>
             <div className={style.containerEx}>
               <BtnColor btnName={t("btn-expe")} />
-              <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("Titulo-expe")}</h2>
-              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">{t("descricaoText-expe")}</p>
+              <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">{t("Titulo-expe")}</h2>
+              <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("descricaoText-expe")}</p>
             </div>
           </div>
           <ListaDeExperiencia/> 
         </section>
         <section name="Sobre" className={style.Sobre}>
           <div className={style.displaySobre}>
-            <h5 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("titulo-sobre")}</h5>
-            <p className={style.descricao_sobre} data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">{t("descricao-sobre")}</p>
+            <h5 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">{t("titulo-sobre")}</h5>
+            <p className={style.descricao_sobre} data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("descricao-sobre")}</p>
             <div className={style.sobreContainer_info}>
               <ListaSobreMim/>
               <FormularioContato/>
@@ -106,8 +106,8 @@ const Home = () => {
         </section>
         <section name={t( "link-header8")} className={style.Contato}>
           <div className={style.displayContato}>
-            <h6 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("titulo-contato")}</h6>
-            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">{t("descricao-contato")}</p>
+            <h6 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="0">{t("titulo-contato")}</h6>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">{t("descricao-contato")}</p>
             <ListaDeContato/> 
           </div>
         </section>

@@ -81,7 +81,7 @@
                 background-position: top;
                 box-shadow: 0 8px 24px 0 rgb(0 0 0 / 15%);
                 background: $background-white;
-                transition: ease-in-out 4s;
+                transition: ease-in-out 3s;
             }
 
             .box.box1 {
@@ -134,13 +134,14 @@
 
                 button {
                     display: flex;
+                    color: $color-texto;
                     justify-content: center;
                     align-items: center;
                     flex-basis: 0;
                     flex-grow: 1;
                     background: $background-white;
                     border-radius: 5px;
-                    border: 2px solid #000000;
+                    border: 2px solid $borders-black;
                     padding: 1rem 0;
                     transition: 400ms;
 

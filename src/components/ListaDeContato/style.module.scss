@@ -7,11 +7,6 @@
     gap: 2.8rem;
     flex-wrap: wrap; 
 
-    a{
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 0;
-
     .contentItem{
         cursor: pointer;
         transition: 400ms;
@@ -26,6 +21,11 @@
         background: $background-white;
         border: 2px solid $background-black;
         border-radius: 8px;
+
+        a{
+            display: flex;
+            flex-grow: 1;
+            flex-basis: 0;
             
             svg{
                 fill:$color-destaque;
@@ -38,25 +38,25 @@
                 line-height: 30px;
                 color: $text-opacity;
             }
-
-            &:hover::after {
-                position: absolute;
-                content: attr(data-name);
-                background: $color-destaque;
-                padding: .3rem;
-                color: $color-texto-white;
-                font-size: 12px;
-                border-radius: 4px;
-                animation: skills 800ms ease-in-out forwards;
-                transform: translateY(40px);
-            }
-
-            &:hover {
-                box-shadow: 3px 3px 0px $background-black;
-                transform: translateY(-10px);
-                transform: scale(1.05);
-            }   
         }
+
+        &:hover::after {
+            position: absolute;
+            content: attr(data-name);
+            background: $color-destaque;
+            padding: .3rem;
+            color: $color-texto-white;
+            font-size: 12px;    
+            border-radius: 4px;
+            animation: skills 800ms ease-in-out forwards;
+            transform: translateY(40px);
+        }
+
+        &:hover {
+            box-shadow: 3px 3px 0px $background-black;
+            transform: translateY(-10px);
+            transform: scale(1.05);
+        }   
     }
 }
 
