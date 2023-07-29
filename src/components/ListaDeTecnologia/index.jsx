@@ -1,13 +1,13 @@
 import Js from "../icon/Tecnologias/Js";
+import Css from "../icon/Tecnologias/Css";
+import Html from "../icon/Tecnologias/Html";
+import React from "../icon/Tecnologias/React";
 import Sass from "../icon/Tecnologias/Sass";
-import Css from "../icon/Tecnologias/css";
-import Html from "../icon/Tecnologias/htm";
-
 import style from"./style.module.scss";
 
 const techData = [
-  { name: "React", svg: <Js/>,  duration: "100" } ,
-  { name: "JavaScript", svg: <Js/> ,  duration: "200" },
+  { name: "React", svg: <React/>,  duration: "100" } ,
+  { name: "JavaScript", svg: <Js/>,  duration: "200" },
   { name: "Sass/Scss", svg: <Sass/>,  duration: "300" },  
   { name: "Git", svg: <Sass/>,  duration: "400" },
   { name: "HTML", svg: <Html/>,  duration: "500" },

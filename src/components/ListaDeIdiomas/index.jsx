@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import CheckBrasil from "../../assets/checkBrasil.png";
-import CheckEua from "../../assets/CheckEua.png";
+import CheckEua from "../../assets/checkEua.png";
 import CheckEsp from "../../assets/espanha.png";
 
 import style from "./style.module.scss";
