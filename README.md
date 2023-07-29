@@ -1,21 +1,22 @@
 <h1 align="center">
-  💻<br>Portfólio - Iuri Silva
+  💻<br>Portfólio | Carlos Danyel
 </h1>
 
 ![Resultado final do projeto](assets/image/preview.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://portfolio-carlosdanyel.vercel.app">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
-O site é composto por cinco seções:
+O site é composto por sete seções:
 
 - **Home:** Nele temos uma breve apresentação;
-- **Quem sou:** Nessa seção tenho uma descrição dizendo um pouco sobre quem sou;
-- **Experiências:** Abordo algumas empresas da qual prestei meus serviços na área de desenvolvimento e design;
+- **Serviços** Exibe meus serviços profissionais;
+- **Tecnologias** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
 - **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
-- **Serviços:** Exibe através de cards os diferentes serviços em que possuo conhecimentos;
-- **Conhecimentos:** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
+- **Experiências:** Abordo algumas empresas da qual prestei meus serviços;
+- **Quem sou:**: Uma breve descrição sobre mim e minha carreira;
+- **Contato:**: Meus contatos pessoais;
 
 ---
 
@@ -23,25 +24,21 @@ O site é composto por cinco seções:
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-- HTML;
-- Sass;
-- JavaScript;
-- ScrollReveal;
-- SVG Inject;
-
+- React;
+- Sass/Scss;
+- I18next;
+- React-preloades;
+- Fremer.Motion;
+- Aos.js
+  
 ---
 
-<h2>🦄 Autor</h2>
+<h2>Desenvolvedor</h2>
 
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
-      </a>
+      <p>Carlos Danyel Silva Teixeira</p>
     </td>
   </tr>
 </table>
