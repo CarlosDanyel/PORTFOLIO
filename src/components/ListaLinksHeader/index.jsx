@@ -32,7 +32,7 @@ const ListaLinksHeader = (props) => {
                 spy={true} 
                 smooth={true} 
                 duration={1300}>{item.name}
-                </Link>;
+                </Link>
                 </li>
       })}
       </ul>

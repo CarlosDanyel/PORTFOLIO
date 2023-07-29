@@ -46,12 +46,11 @@ const ListaDeProjetos = () => {
                 {projetos.map((item, indice) => {
                     return (
                         <li key={indice}>
-                            <div className={style.listTech1}></div>
-                            <div className={style.listTech2}></div>
                             <div className={style.img_container} data-img={item.projetoImg}>
                                 <div className={`${style.box} ${style.box1}`} 
                                 style={{ backgroundImage: `url(${item.projetoImg})` }} >
-                                    <span>{item.textProject}</span>
+                                    <div className={style.listTech1}></div>
+                                    <div className={style.listTech2}></div>
                                 </div>
                             </div>
                             <div className={style.expecificaçoes}>
