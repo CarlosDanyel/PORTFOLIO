@@ -8,11 +8,15 @@
 
     details{
         list-style-type: none;
+
+        summary::-webkit-details-marker {
+            display: none
+        }
+
         svg{
             fill: $color-destaque;
         }
         summary{
-            list-style-type: none;
             display: flex;
             justify-content: space-between;
             padding: 38px 0;
