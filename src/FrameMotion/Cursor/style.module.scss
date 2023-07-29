@@ -13,5 +13,9 @@
     align-items: center;
     justify-content: center;
     pointer-events: none;
+
+    @media(max-width: 497px) {
+        display: none;  
+    }
 }
 

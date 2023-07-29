@@ -9,4 +9,8 @@
     background: $color-destaque;    
     transform-origin: 0%;
     z-index: 90;
+
+    @media(max-width: 497px) {
+        display: none;
+    }
 }
