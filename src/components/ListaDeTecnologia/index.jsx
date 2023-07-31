@@ -10,9 +10,10 @@ import NodeJS from "../icon/Tecnologias/NodeJS";
 import style from"./style.module.scss";
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode } from "swiper";
+import { FreeMode, Autoplay, } from "swiper";
 import MongoDb from "../icon/Tecnologias/MongoDb";
 
 const techData = [
@@ -42,10 +43,14 @@ const ListaDeTecnologia = () => {
     slidesPerView={4}
     spaceBetween={25}
     freeMode={true}
+    loop={true}
+    autoplay={{
+      delay: 2800,
+    }}
     pagination={{
       clickable: true,
     }}
-    modules={[FreeMode]}
+    modules={[FreeMode, Autoplay]}
     breakpoints={{
       1200: {
         slidesPerView: 4,
@@ -60,10 +65,10 @@ const ListaDeTecnologia = () => {
         slidesPerView: 3 ,
       },
       340: {
-        slidesPerView: 1,
+        slidesPerView: 2,
       },
       140: {
-        slidesPerView: 1,
+        slidesPerView: 2,
       },
     }}
     className={style.containerStack}>{renderTechs()}

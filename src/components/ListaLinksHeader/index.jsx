@@ -33,7 +33,7 @@ const ListaLinksHeader = (props) => {
                 smooth={true} 
                 duration={1300}>{item.name}
                 </Link>
-                </li>
+            </li>
       })}
       </ul>
     );
