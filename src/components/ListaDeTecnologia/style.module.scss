@@ -1,23 +1,27 @@
 @import "../../style/variavel.scss";
 
 .containerStack {
-    margin-top: 2rem;
+    max-width: 2000px;
+    margin-top: 2rem;   
     display: flex;
     justify-content: space-between;
     gap: 2.8rem;
+    width: 100%;
+    height: 150px;
     flex-wrap: wrap;
 
     .tech {
+        margin-left: .1rem;
         display: flex;
         padding: 1rem 1rem;
         align-items: center;
         justify-content: center;
-        flex-grow: 1;
-        flex-basis: 0;
         background: $background-white;
         border: 2px solid $borders-black;
         border-radius: 8px;
         transition: 400ms;
+        z-index: 90;
+        height: 100px;
 
         .backgroundSvg{
             fill: $border-white;
@@ -27,39 +31,15 @@
             fill: $color-destaque;
             width: 70px;
             height: 70px;
-            transition: 400ms;   
+            transition: 400ms;
         }
 
         &:hover {
             box-shadow: 4px 4px 0px #131313;
-            transform: translateY(-10px);
-            transform: scale(1.05);
+            transform: translateY(5px);
 
-            &:hover {
-                &:nth-child(1),
-                &:nth-child(6) { 
-                    svg {
-                        fill: #50C0FF;
-                    }
-                }
-              
-                &:nth-child(2){ 
-                    svg {
-                        fill: #FBF110;
-                    }
-                }
-          
-                &:nth-child(3){ 
-                    svg {
-                        fill: #ff2ea8;
-                    }
-                }
-               
-                &:nth-child(5),
-                &:nth-child(4), 
-                    svg {
-                        fill: #E14F11;
-                    }
+            svg{
+                    transform: scale(1.05);
             }
         }
 
@@ -73,6 +53,7 @@
             border-radius: 4px;
             animation: skills 800ms ease-in-out forwards;
             transform: translateY(40px);
+            z-index: 99;
         }
     }
 }
