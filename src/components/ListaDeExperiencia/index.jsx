@@ -17,14 +17,14 @@ const ListaDeExperiencia = () => {
         {
             nameEmprego: t("card2-expe"),
             nameCargo: t("card2-expe2"),
-            data: "2021 - 2022",
+            data: "2022 - 2023",
             descricao:  t("card2-descricao-expe"),
             duration: "200"
         },
         {
             nameEmprego: t("card3-expe"),
             nameCargo: t("card3-expe2"),
-            data: "2021 - 2022",
+            data: t("card3-temp"),
             descricao:  t("card3-descricao-expe"),
             duration: "300"
         },
