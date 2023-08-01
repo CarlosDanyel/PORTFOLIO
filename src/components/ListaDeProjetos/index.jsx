@@ -1,8 +1,10 @@
 import projetoPaginaDeVendas from "../../assets/projetoPaginaDeVendas.png"; 
+import projetoNaped from "../../assets/NAPED.png"
 
 import { useTranslation } from "react-i18next";
 
 import style from "./style.module.scss"
+import { Link } from "react-router-dom";
 
 const ListaDeProjetos = () => {
     
@@ -14,29 +16,29 @@ const ListaDeProjetos = () => {
             descricao: t("detalhe-pjr1-2"),
             projetoImg: projetoPaginaDeVendas,
             sobreProjeto: t("descricao-pjr1"),
-            duration: "100"
+            repositorio: "https://github.com/CarlosDanyel/PAGINA-DE-VENDAS-EBOOK",
+            preview: "#"
         },
         {
             nameProjeto: t("name-pjr2"),
             descricao:  t("detalhe-pjr2-2"),
-            textProject:  t("detalhe-Embreve"),
+            projetoImg: projetoNaped,
             sobreProjeto: t("descricao-pjr2"),
-            duration: "200"
         },
         {
             nameProjeto:  t("name-pjr3"),
             descricao:  t("detalhe-pjr3-2"),
             textProject: t("detalhe-Embreve"),
             sobreProjeto: t("descricao-pjr3"),
-            duration: "300"
-            
+            embreve: t("detalhe-Embreve")
         },
         {
             nameProjeto:  t("name-pjr4"),
             descricao:  t("detalhe-pjr4-2"),
             textProject:  t("detalhe-Embreve"), 
             sobreProjeto: t("descricao-pjr4"),
-            duration: "400"
+            embreve: t("detalhe-Embreve")
+            
         },
     ];
 
@@ -49,6 +51,7 @@ const ListaDeProjetos = () => {
                             <div className={style.img_container} data-img={item.projetoImg}>
                                 <div className={`${style.box} ${style.box1}`} 
                                 style={{ backgroundImage: `url(${item.projetoImg})` }} >
+                                    <span>{item.embreve}</span>
                                     <div className={style.listTech1}></div>
                                     <div className={style.listTech2}></div>
                                 </div>
@@ -59,8 +62,8 @@ const ListaDeProjetos = () => {
                             </div>
                             <p className={style.sobreProjeto}>{item.sobreProjeto}</p>
                             <div className={style.container_btn}>
-                            <button>Preview</button>
-                            <button>{t("btnText-pjr-1")}</button>
+                                <Link to={item.preview}>Preview</Link>
+                                <Link to={item.repositorio}>{t("btnText-pjr-1")}</Link>
                             </div>
                         </li>
                     );
