@@ -17,7 +17,7 @@ const ListaDeProjetos = () => {
             projetoImg: projetoPaginaDeVendas,
             sobreProjeto: t("descricao-pjr1"),
             repositorio: "https://github.com/CarlosDanyel/PAGINA-DE-VENDAS-EBOOK",
-            preview: "#"
+            preview: "https://pagina-de-vendas-ebook-g6nv.vercel.app/"
         },
         {
             nameProjeto: t("name-pjr2"),
