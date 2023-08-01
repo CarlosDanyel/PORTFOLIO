@@ -107,6 +107,9 @@
 }
 
 .navegacaoMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     position: fixed;
     top: 0;
     right: -16rem;
@@ -131,7 +134,7 @@
     
     .menuNav {
         cursor: pointer;
-        padding: 3rem 0 0 2rem;
+        padding: 3rem 0 0 0rem;
         z-index: 11;
         background: none;
         border: none;
@@ -149,12 +152,6 @@
             transition: all 400ms ease-in-out;
         }
 
-        ul{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    
         &.active {
             .line:nth-child(1) {
                 opacity: 1;
