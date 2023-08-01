@@ -30,6 +30,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - React-preloades;
 - Framer.Motion;
 - Aos.js
+- React-Scroll
   
 ---
 
