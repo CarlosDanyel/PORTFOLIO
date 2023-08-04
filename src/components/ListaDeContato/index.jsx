@@ -12,23 +12,23 @@ import { Link } from "react-router-dom";
 
 
 const contato = [
-    {acesibilidade: "Visite o meu linkedin", name: "Linkedin", svg: <Linkedin/>, link: "https://www.linkedin.com/in/mano-deyvin-b78534278/"}, 
-    {acesibilidade: "Visite o meu instagram", name: "Instagram", svg: <Instagram/>, link: "https://www.instagram.com/_danyelzs/" },
-    {acesibilidade: "Visite o meu github", name: "Github", svg: <Github/>, link: "https://github.com/CarlosDanyel" },
-    {acesibilidade: "Meu numero +55 11 985673241", name: "+55 11 985673241", svg: <Cell/>, duration: "400" },
-    {acesibilidade: "Meu email carlosdanyelsilva27@gmail.com", name: "carlosdanyelsilva27@gmail.com", svg: <Email/>},
-  ];
+    { acs: "Visite o meu linkedin", name: "Linkedin", svg: <Linkedin />, link: "https://www.linkedin.com/in/mano-deyvin-b78534278/" },
+    { acs: "Visite o meu instagram", name: "Instagram", svg: <Instagram />, link: "https://www.instagram.com/_danyelzs/" },
+    { acs: "Visite o meu github", name: "Github", svg: <Github />, link: "https://github.com/CarlosDanyel" },
+    { acs: "Meu numero +55 11 985673241", name: "+55 11 985673241", svg: <Cell />, duration: "400" },
+    { acs: "Meu email carlosdanyelsilva27@gmail.com", name: "carlosdanyelsilva27@gmail.com", svg: <Email /> },
+];
 
 const ListaDeContato = () => {
     return (
         <ul className={style.listaContato}>
-            {contato.map((item, indice) =>{
-                return(
-                <li key={indice} className={style.contentItem} data-name={item.name}>
-                    <Link title={item.acesibilidade} to={item.link} >
-                      {item.svg}
-                    </Link>
-                </li>
+            {contato.map((item, indice) => {
+                return (
+                    <li key={indice} className={style.contentItem} data-name={item.name}>
+                        <Link title={item.acs} to={item.link} >
+                            {item.svg}
+                        </Link>
+                    </li>
                 );
             })}
         </ul>

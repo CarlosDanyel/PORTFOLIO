@@ -6,29 +6,29 @@ import CheckEsp from "../../assets/espanha.png";
 import style from "./style.module.scss";
 
 const langOptions = [
-    {
-        name: "Portugues",
-        value: "pt",
-        flag: CheckBrasil,
-    },
-    {
-        name: "English",
-        value: "en",
-        flag: CheckEua,
-    },
-    {
-      name: "Espanhol",
-      value: "esp",
-      flag: CheckEsp,
-    },
+  {
+    name: "Portugues",
+    value: "pt",
+    flag: CheckBrasil,
+  },
+  {
+    name: "English",
+    value: "en",
+    flag: CheckEua,
+  },
+  {
+    name: "Espanhol",
+    value: "esp",
+    flag: CheckEsp,
+  },
 ]
 
 
 const ListaDeIdiomas = () => {
 
-const { i18n} = useTranslation();   
+  const { i18n } = useTranslation();
 
-    return (
+  return (
     <div className={style.idioma}>
       {langOptions.map((lang, key) => {
         return (
@@ -44,7 +44,7 @@ const { i18n} = useTranslation();
         );
       })}
     </div>
-    );
+  );
 };
 
 export default ListaDeIdiomas;

@@ -1,126 +1,123 @@
 @import "../../style/variavel.scss";
 
-.ContainerEmail{ 
-
+.ContainerEmail {
   form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+
+    .textForm {
       display: flex;
-      width: 100%;
-      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
       gap: 1rem;
 
-      .textForm{
+      h6 {
+        font-size: 17px;
+        --text-opacity: 1;
+        color: $color-texto;
+      }
+
+      .message {
+        display: none;
+        line-height: 30px;
+        --text-opacity: 1;
+        color: $mensagem;
+      }
+
+      .message.active {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1rem;
+      }
+    }
 
-        h6 {
-          font-size: 17px;
-          --text-opacity: 1;
-          color: $color-texto;       
+    .InputContent {
+      display: flex;
+      gap: 2rem;
 
-        }
+      input {
+        width: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+        background-clip: padding-box;
+        background-color: $background-white;
+        border: 1px solid $border-input;
+        border-radius: 0.375rem;
+        color: $color-texto;
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding: 0.8rem 1rem;
 
-        .message{
-          display: none;
+        &::placeholder {
           line-height: 30px;
-          --text-opacity: 1;
-          color: $mensagem;
+          color: $text-opacity;
         }
+      }
+    }
 
-        .message.active{
-          display: flex;
+    .textareaCheck {
+      display: flex;
+      flex-grow: 1;
+      flex-basis: 0;
+
+      textarea {
+        -webkit-appearance: none;
+        appearance: none;
+        background-clip: padding-box;
+        background-color: $background-white;
+        border: 1px solid $border-input;
+        border-radius: 0.375rem;
+        color: $color-texto;
+        display: block;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0.375rem 0.75rem;
+        width: 100%;
+        height: 157px;
+
+        &::placeholder {
+          line-height: 30px;
+          color: $text-opacity;
+        }
+      }
+    }
+    .ContainerBtn {
+      display: flex;
+      gap: 2rem;
+
+      button {
+        width: 180px;
+        height: 39px;
+        background: $color-destaque;
+        border-radius: 9px;
+        font-size: 17px;
+        font-weight: 700;
+        font-size: 0.99rem;
+        border: 2px solid $borders-black;
+        color: $color-texto-white;
+        transition: 400ms;
+
+        &:hover {
+          box-shadow: 2px 2px 0px $background-black;
+          transform: translateY(-10px);
         }
       }
 
-      .InputContent {
-        display: flex;
-        gap: 2rem;
-
-            input {
-                width: 100%;
-                -webkit-appearance: none;
-                appearance: none;
-                background-clip: padding-box;
-                background-color: $background-white;
-                border: 1px solid $border-input;
-                border-radius: .375rem;
-                color:  $color-texto;
-                display: block;
-                font-size: .9rem;
-                font-weight: 400;
-                padding: .8rem 1rem;
-
-                &::placeholder {
-                    line-height: 30px;
-                    color: $text-opacity;
-                }
-            }
+      a {
+        button {
+          width: 180px;
+          height: 39px;
+          background: $color-destaque;
+          border-radius: 9px;
+          font-size: 17px;
+          font-weight: 700;
         }
-
-      .textareaCheck {
-        display: flex;
-        flex-grow: 1;
-        flex-basis: 0;
-
-            textarea {
-            -webkit-appearance: none;
-            appearance: none;
-            background-clip: padding-box;
-            background-color: $background-white;
-            border: 1px solid  $border-input;
-            border-radius: .375rem;
-            color:  $color-texto;
-            display: block;
-            font-size: .9rem;
-            font-weight: 400;
-            line-height: 1.5;
-            padding: .375rem .75rem;
-            width: 100%;
-            height: 157px;
-    
-                &::placeholder {
-                    line-height: 30px;
-                    color: $text-opacity;
-                }
-          }
-      } 
-      .ContainerBtn{ 
-        display: flex;
-        gap: 2rem;
-
-          button {
-            width: 180px;
-            height: 39px;
-            background: $color-destaque;
-            border-radius: 9px;
-            font-size: 17px;
-            font-weight: 700;
-            font-size: .99rem;
-            border: 2px solid $borders-black;
-            color: $color-texto-white;
-            transition: 400ms;
-    
-            &:hover {
-                box-shadow: 2px 2px 0px $background-black;
-                transform: translateY(-10px);
-            }            
-        }
-
-        a {
-          button{
-              width: 180px;
-              height: 39px;
-              background: $color-destaque;
-              border-radius: 9px;
-              font-size: 17px;
-              font-weight: 700;
-          }
       }
     }
   }
   @media (max-width: 1046px) {
     width: 100%;
-    
   }
 }

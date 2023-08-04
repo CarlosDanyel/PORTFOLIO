@@ -1,7 +1,6 @@
 @import "../../style/variavel.scss";
 
-.display_ulEx{
-
+.display_ulEx {
     position: relative;
     width: 90%;
     max-width: 1470px;
@@ -37,7 +36,7 @@
                 border-radius: 10px;
                 font-size: 11px;
                 color: $color-texto-white;
-                padding: .4rem;
+                padding: 0.4rem;
             }
 
             h3 {
@@ -66,10 +65,10 @@
                 transform: scale(1.05);
             }
 
-             @media(max-width: 387px){
+            @media (max-width: 387px) {
                 min-width: 250px;
 
-                @media(max-width: 291px){
+                @media (max-width: 291px) {
                     min-width: 200px;
                 }
             }
@@ -85,9 +84,9 @@
             margin: 0 auto;
             z-index: -1;
 
-            @media(max-width: 1261px) {
+            @media (max-width: 1261px) {
                 display: none;
             }
         }
     }
-}    
+}

@@ -10,7 +10,7 @@ const ScrollTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    if (window.pageYOffset > 700){ 
+    if (window.pageYOffset > 700) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -26,12 +26,12 @@ const ScrollTop = () => {
 
   return (
     <button
-        type="button"
-        title="Subir ao topo"
-        className={`${Style['scroll_top']} ${isVisible ? Style.visible : Style.hidden}`}
-        onClick={()=> {scroll.scrollToTop()}}
+      type="button"
+      title="Subir ao topo"
+      className={`${Style['scroll_top']} ${isVisible ? Style.visible : Style.hidden}`}
+      onClick={() => { scroll.scrollToTop() }}
     >
-        <img src={seta} alt='Subir ao topo' />
+      <img src={seta} alt='Subir ao topo' />
     </button>
   );
 };

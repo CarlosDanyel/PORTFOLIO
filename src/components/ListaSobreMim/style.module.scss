@@ -6,17 +6,17 @@
     flex-grow: 1;
     flex-basis: 350px;
 
-    details{
+    details {
         list-style-type: none;
 
         summary::-webkit-details-marker {
-            display: none
+            display: none;
         }
 
-        svg{
+        svg {
             fill: $color-destaque;
         }
-        summary{
+        summary {
             display: flex;
             justify-content: space-between;
             padding: 38px 0;
@@ -24,12 +24,12 @@
             gap: 10px;
             flex: 1 0 0;
             border-bottom: 2px solid $border-sobre;
-            cursor: pointer;             
+            cursor: pointer;
         }
 
-        .textP{
+        .textP {
             margin-top: 1rem;
-            font-size: .95rem;
+            font-size: 0.95rem;
             line-height: 40px;
             color: $text-opacity;
         }

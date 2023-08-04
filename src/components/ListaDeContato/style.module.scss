@@ -1,13 +1,13 @@
 @import "../../style/variavel.scss";
 
-.listaContato{
+.listaContato {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     gap: 2.8rem;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 
-    .contentItem{
+    .contentItem {
         cursor: pointer;
         transition: 400ms;
         display: flex;
@@ -22,18 +22,18 @@
         border: 2px solid $background-black;
         border-radius: 8px;
 
-        a{
+        a {
             display: flex;
             flex-grow: 1;
             flex-basis: 0;
-            
-            svg{
-                fill:$color-destaque;
+
+            svg {
+                fill: $color-destaque;
                 width: 70px;
-                height: 70px;   
+                height: 70px;
             }
 
-            span{
+            span {
                 font-size: 13px;
                 line-height: 30px;
                 color: $text-opacity;
@@ -44,9 +44,9 @@
             position: absolute;
             content: attr(data-name);
             background: $color-destaque;
-            padding: .3rem;
+            padding: 0.3rem;
             color: $color-texto-white;
-            font-size: 12px;    
+            font-size: 12px;
             border-radius: 4px;
             animation: skills 800ms ease-in-out forwards;
             transform: translateY(40px);
@@ -56,7 +56,7 @@
             box-shadow: 3px 3px 0px $background-black;
             transform: translateY(-10px);
             transform: scale(1.05);
-        }   
+        }
     }
 }
 

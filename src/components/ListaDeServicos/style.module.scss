@@ -1,13 +1,13 @@
 @import "../../style/variavel.scss";
 
-.displayContainer{ 
+.displayContainer {
     position: relative;
     width: 90%;
     max-width: 1470px;
     margin: 0 auto;
     z-index: 0;
 
-    .ListaServicos{
+    .ListaServicos {
         display: flex;
         flex-wrap: wrap;
         width: 90%;
@@ -16,7 +16,7 @@
         margin-top: -67px;
         gap: 2rem;
 
-        li{
+        li {
             position: relative;
             display: flex;
             flex-direction: column;

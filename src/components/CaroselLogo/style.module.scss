@@ -52,12 +52,12 @@
         }
 
         100% {
-            transform: translateX(calc(var(--slide-width) * var(--no-of-slides)* -1));
+            transform: translateX(calc(var(--slide-width) * var(--no-of-slides) * -1));
         }
     }
 
-    @media(max-width: 751px) {
-        .carousel_slide{
+    @media (max-width: 751px) {
+        .carousel_slide {
             width: 61vw;
         }
     }

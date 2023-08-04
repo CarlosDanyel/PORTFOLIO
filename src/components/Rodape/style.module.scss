@@ -1,9 +1,9 @@
 @import "../../style/variavel.scss";
 
-footer{
+footer {
     background: $background-white;
 
-    .displayFooter{
+    .displayFooter {
         border-top: 2px solid $border-sobre;
         display: flex;
         justify-content: space-between;
@@ -13,14 +13,14 @@ footer{
         align-items: center;
         justify-content: center;
 
-        span{
+        span {
             padding: 1.6rem 0;
             font-size: 16px;
             line-height: 40px;
             color: $text-opacity;
             text-align: center;
 
-            .colorTextFooter{
+            .colorTextFooter {
                 color: $color-destaque;
             }
         }

@@ -22,15 +22,13 @@
             background: $background-white;
             border: 2px solid $borders-black;
             transition: 400ms;
-            
+
             &:hover {
                 transform: scale(1.04);
 
-                &:nth-child(1){ 
-
-                    .box{ 
-                   
-                        .listTech1{
+                &:nth-child(1) {
+                    .box {
+                        .listTech1 {
                             display: flex;
                             gap: 2rem;
                             transition: 400ms;
@@ -38,13 +36,13 @@
                             width: 100%;
                             height: 100%;
 
-                            &::after{
+                            &::after {
                                 position: absolute;
                                 content: "React";
                                 background: $color-destaque;
                                 bottom: 42%;
                                 left: 5%;
-                                padding: .3rem;
+                                padding: 0.3rem;
                                 color: $color-texto-white;
                                 font-size: 14px;
                                 border-radius: 4px;
@@ -52,14 +50,14 @@
                                 transform: translateY(40px);
                                 z-index: 1;
                             }
-                            
-                            &::before{
+
+                            &::before {
                                 position: absolute;
                                 content: "Sass/Scss";
-                                background:  $color-destaque;
+                                background: $color-destaque;
                                 bottom: 42%;
                                 left: 6rem;
-                                padding: .3rem;
+                                padding: 0.3rem;
                                 color: $color-texto-white;
                                 font-size: 14px;
                                 border-radius: 4px;
@@ -68,14 +66,14 @@
                                 z-index: 1;
                             }
                         }
-                    }     
+                    }
                 }
             }
 
             &:hover .img_container .box {
                 background-position: bottom;
             }
-            
+
             .img_container {
                 position: relative;
                 padding: 1rem;
@@ -97,10 +95,10 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-color:  $background-white;
+                background-color: $background-white;
                 background-size: cover;
 
-                span{
+                span {
                     font-size: 1.2rem;
                     color: $text-opacity;
                     line-height: 26px;
@@ -129,11 +127,11 @@
                 }
             }
 
-            .sobreProjeto{
+            .sobreProjeto {
                 font-size: 0.85rem;
                 padding: 0.5rem 0;
                 color: $text-opacity;
-                line-height: 30px;  
+                line-height: 30px;
             }
             .container_btn {
                 margin-top: 1rem;
@@ -163,12 +161,11 @@
 
             &:hover {
                 box-shadow: 4px 4px 0px $background-black;
-                transition: 400ms !important;   
+                transition: 400ms !important;
             }
-
         }
     }
-}    
+}
 
 @keyframes skills {
     0% {

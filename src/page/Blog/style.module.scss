@@ -1,14 +1,14 @@
-.gridLayout{
+.gridLayout {
     width: 90%;
     max-width: 1224px;
     margin: 0 auto;
     height: 67.5vh;
     margin-bottom: 2rem;
 
-    p{
+    p {
         line-height: 30px;
         --text-opacity: 1;
-        color: rgb(119 128 161/var(--text-opacity));
-        padding-bottom: 2rem ;
+        color: rgb(119 128 161 / var(--text-opacity));
+        padding-bottom: 2rem;
     }
 }

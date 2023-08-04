@@ -8,7 +8,7 @@
     border: 2px solid $background-black;
     border-radius: 8px;
     background-color: $backgound-section-secundaria;
-    transition: .4s;
+    transition: 0.4s;
     box-shadow: 4px 4px 0px $background-black;
 
     .logo {
@@ -25,7 +25,7 @@
             position: relative;
             cursor: pointer;
 
-            a{
+            a {
                 text-decoration: none;
                 color: $color-texto;
             }
@@ -40,14 +40,14 @@
                 left: 0;
                 border-bottom: $color-destaque 4px dashed;
                 transform-origin: bottom right;
-                transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+                transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
             }
 
             &:hover::after {
                 transform: scaleX(1);
                 transform-origin: bottom left;
             }
-        }        
+        }
     }
 
     .menuNav {
@@ -68,13 +68,13 @@
             background: $line-navbar;
             transition: all 400ms ease-in-out;
         }
-    
+
         &.active {
             .line:nth-child(1) {
                 opacity: 0;
                 transform: translateY(8px) rotate(-45deg);
             }
-    
+
             .line:nth-child(2) {
                 opacity: 0;
                 transform: translateY(-8px) rotate(45deg);
@@ -86,7 +86,7 @@
     &.active {
         box-shadow: none;
     }
-    
+
     @media (max-width: 674px) {
         ul {
             display: none;
@@ -94,7 +94,7 @@
     }
 }
 
-.blur.active{
+.blur.active {
     position: fixed;
     top: 0;
     right: 0;
@@ -117,21 +117,21 @@
     height: 100vh;
     background: $backgound-section-secundaria;
     z-index: 11;
-    transition:  400ms ease-out;
+    transition: 400ms ease-out;
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
 }
-                              
+
 .menu {
     position: fixed;
     top: 0;
     right: 0rem;
-    width: 16rem; 
+    width: 16rem;
     height: 100vh;
     z-index: 11;
-    transition:  400ms ease-out;
+    transition: 400ms ease-out;
     box-shadow: 0 8px 24px 0 rgb(0 0 0 / 15%);
-    
+
     .menuNav {
         cursor: pointer;
         padding: 3rem 0 0 0rem;
@@ -143,7 +143,7 @@
         align-items: flex-end;
         gap: 1rem;
         flex-direction: column;
-        
+
         .line {
             position: relative;
             width: 32px;
@@ -157,7 +157,7 @@
                 opacity: 1;
                 transform: translateY(8px) rotate(-45deg);
             }
-    
+
             .line:nth-child(2) {
                 opacity: 1;
                 transform: translateY(-8px) rotate(45deg);
@@ -165,18 +165,18 @@
             }
         }
     }
-    
+
     &.active {
         box-shadow: none;
     }
-    
+
     @media (max-width: 674px) {
         ul {
             display: none;
         }
     }
-    
-    .listNavbar.active{
+
+    .listNavbar.active {
         opacity: 1;
         display: flex;
         align-items: center;
@@ -185,7 +185,7 @@
         gap: 4.5rem;
         transition: 400m;
 
-        a{
+        a {
             display: flex;
             text-decoration: none;
             color: $color-texto;
@@ -203,7 +203,7 @@
                 left: 0;
                 border-bottom: $color-destaque 4px dashed;
                 transform-origin: bottom right;
-                transition: transform .5s cubic-bezier(0.86, 0, 0.07, 1);
+                transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
             }
 
             &:hover::after {
@@ -214,8 +214,6 @@
     }
 }
 
-.listNavbar{
+.listNavbar {
     display: none;
 }
-
-          

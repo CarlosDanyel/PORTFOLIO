@@ -11,7 +11,6 @@
     gap: 1rem;
     flex-direction: column;
 
-
     .line {
         position: relative;
         width: 32px;
@@ -23,7 +22,6 @@
     &.active {
         .line:nth-child(1) {
             transform: translateY(8px) rotate(-45deg);
-       
         }
 
         .line:nth-child(2) {

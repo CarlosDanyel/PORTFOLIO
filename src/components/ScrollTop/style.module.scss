@@ -14,7 +14,6 @@
   z-index: 10;
   border: none;
   opacity: 1;
-
 }
 
 .hidden {
@@ -22,13 +21,13 @@
 }
 
 .visible {
-  animation: scroll-in 800ms ease-in-out forwards;  
+  animation: scroll-in 800ms ease-in-out forwards;
   display: flex;
   animation: scrollInfinite 1s infinite ease-in-out alternate;
-  
+
   @media (max-width: 1360px) {
     display: none;
-}
+  }
 }
 
 @keyframes scroll-in {
@@ -36,7 +35,7 @@
     opacity: 0;
     transform: translateY(50px);
   }
- 
+
   100% {
     opacity: 1;
     transform: translateY(0px);
@@ -59,7 +58,7 @@
   0% {
     transform: translateY(0px);
   }
-  
+
   50% {
     transform: translateY(20px);
   }

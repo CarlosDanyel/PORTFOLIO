@@ -2,7 +2,7 @@
 
 .containerStack {
     max-width: 2000px;
-    margin-top: 2rem;   
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     gap: 2.8rem;
@@ -22,11 +22,11 @@
         z-index: 90;
         height: 100px;
 
-        .backgroundSvg{
+        .backgroundSvg {
             fill: $border-white;
         }
 
-        svg{
+        svg {
             fill: $color-destaque;
             width: 70px;
             height: 70px;
@@ -37,8 +37,8 @@
             box-shadow: 4px 4px 0px #131313;
             transform: translateY(5px);
 
-            svg{
-                    transform: scale(1.05);
+            svg {
+                transform: scale(1.05);
             }
         }
 
@@ -46,7 +46,7 @@
             position: absolute;
             content: attr(data-name);
             background: $color-destaque;
-            padding: .3rem;
+            padding: 0.3rem;
             color: $color-texto-white;
             font-size: 14px;
             border-radius: 4px;
