@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 import style from "./style.module.scss";
 import { useState } from 'react';
 
+import cv from "../../assets/document/Curriculo - Carlos Danyel Silva Teixeira.pdf"
+
 const FormularioContato = () => {
 
     const [name, SetName] = useState("");
@@ -68,7 +70,7 @@ const FormularioContato = () => {
                 </div>
                 <div className={style.ContainerBtn}>
                     <button >{t("btn1")}</button>
-                    <a href='#' download={true}><button type='button'>Dowload CV</button></a>
+                    <a href={cv} download={true}><button type='button'>Dowload CV</button></a>
                 </div>
             </form>
         </div>
