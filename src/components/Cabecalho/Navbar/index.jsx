@@ -4,7 +4,7 @@
 import BtnNavbar from "../../BtnNavbar";
 import ListaLinksHeader from "../../ListaLinksHeader";
 
-import  style from "./style.module.scss";
+import style from "./style.module.scss";
 
 import { NavLink } from "react-router-dom";
 
@@ -23,27 +23,27 @@ const Navbar = () => {
 
   return (
     <>
-      <nav  className={active ? `${style.navegacao} ${style.active}` : style.navegacao}>
+      <nav className={active ? `${style.navegacao} ${style.active}` : style.navegacao}>
         <div className={style.logo}>
-          <Logo/>
+          <Logo />
         </div>
         <ul>
           <li>
-            <NavLink 
-            title="Pagina Home" 
-            to="/">Home</NavLink>
+            <NavLink
+              title="Pagina Home"
+              to="/">Home</NavLink>
           </li>
           <li>
-          <Link title="Conheça o meu portfolio"
-            to="Portfolio"
-            spy={true}  
-            smooth={true} 
-            duration={1300}>Portfólio</Link>
+            <Link title="Conheça o meu portfolio"
+              to="Portfolio"
+              spy={true}
+              smooth={true}
+              duration={1300}>Portfólio</Link>
           </li>
           <li>
-          <NavLink 
-            title="Pagina Blog" 
-            to="/Blog">Blog</NavLink>
+            <NavLink
+              title="Pagina Blog"
+              to="/Blog">Blog</NavLink>
           </li>
         </ul>
         <BtnNavbar active={active} onClick={activeMode} />
@@ -51,9 +51,9 @@ const Navbar = () => {
       <div className={active ? `${style.blur} ${style.active}` : style.blur}>
         <nav className={active ? `${style.navegacaoMenu} ${style.active} ${style.menu}` : style.navegacaoMenu}>
           <BtnNavbar active={active} onClick={activeMode} />
-          <ListaLinksHeader 
-          className={active ? `${style.listNavbar} ${style.active}` : style.listNavbar}
-          reactive={activeMode}
+          <ListaLinksHeader
+            className={active ? `${style.listNavbar} ${style.active}` : style.listNavbar}
+            reactive={activeMode}
           />
         </nav>
       </div>
