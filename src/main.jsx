@@ -8,7 +8,6 @@ import "./style/GlobalStyle.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./page/Home/index.jsx";
-import Blog from "./page/Blog/index.jsx"
 import App from "./App.jsx";
 import ErrorPage from "./page/ErrorPage/index.jsx";
 
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home/> ,
-      },
-      {
-        path: "Blog",
-        element: <Blog/>,
       },
     ]
   },
